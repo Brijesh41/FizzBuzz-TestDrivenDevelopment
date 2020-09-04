@@ -39,4 +39,12 @@ public class FizzBuzzTest{
         String Output = fb.fizzbuzzer(number);
         Assert.assertEquals("Fizz",Output);
     }
+
+    @Test
+    public void InputValueisFive(){
+        FizzBuzz fb = new FizzBuzz();
+        int number = 5;
+        String Output = fb.fizzbuzzer(number);
+        Assert.assertEquals("Buzz",Output);
+    }
 }
