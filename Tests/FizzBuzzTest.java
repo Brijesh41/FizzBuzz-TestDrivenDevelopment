@@ -33,7 +33,7 @@ public class FizzBuzzTest{
         Assert.assertEquals("Fizz",Output);
     }
     @Test
-    public void InputValueisModuloThree(){
+    public void InputValueisMultipleofThree(){
         FizzBuzz fb = new FizzBuzz();
         int number = 9;
         String Output = fb.fizzbuzzer(number);
@@ -44,6 +44,14 @@ public class FizzBuzzTest{
     public void InputValueisFive(){
         FizzBuzz fb = new FizzBuzz();
         int number = 5;
+        String Output = fb.fizzbuzzer(number);
+        Assert.assertEquals("Buzz",Output);
+    }
+
+    @Test
+    public void InputValueisMultpileofFive(){
+        FizzBuzz fb = new FizzBuzz();
+        int number = 10;
         String Output = fb.fizzbuzzer(number);
         Assert.assertEquals("Buzz",Output);
     }
