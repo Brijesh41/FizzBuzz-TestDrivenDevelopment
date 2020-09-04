@@ -24,4 +24,19 @@ public class FizzBuzzTest{
         String Output = fb.fizzbuzzer(number);
         Assert.assertEquals("2",Output);
     }
+
+    @Test
+    public void InputValueisThree(){
+        FizzBuzz fb = new FizzBuzz();
+        int number = 3;
+        String Output = fb.fizzbuzzer(number);
+        Assert.assertEquals("Fizz",Output);
+    }
+    @Test
+    public void InputValueisModuloThree(){
+        FizzBuzz fb = new FizzBuzz();
+        int number = 9;
+        String Output = fb.fizzbuzzer(number);
+        Assert.assertEquals("Fizz",Output);
+    }
 }

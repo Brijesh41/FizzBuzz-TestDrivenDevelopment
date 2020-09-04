@@ -5,6 +5,9 @@ public class FizzBuzz {
         if(number==1) return Integer.toString(1);
 
         if(number==2) return Integer.toString(2);
+
+        if(number%3==0) return "Fizz";
+
         return null;
     }
 }
