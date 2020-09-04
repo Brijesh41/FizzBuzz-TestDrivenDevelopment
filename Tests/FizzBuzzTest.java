@@ -55,4 +55,11 @@ public class FizzBuzzTest{
         String Output = fb.fizzbuzzer(number);
         Assert.assertEquals("Buzz",Output);
     }
+    @Test
+    public void InputValueisMultpileofThreeandFive(){
+        FizzBuzz fb = new FizzBuzz();
+        int number = 30;
+        String Output = fb.fizzbuzzer(number);
+        Assert.assertEquals("Fizz Buzz",Output);
+    }
 }
