@@ -62,4 +62,12 @@ public class FizzBuzzTest{
         String Output = fb.fizzbuzzer(number);
         Assert.assertEquals("Fizz Buzz",Output);
     }
+
+    @Test
+    public void ForAllOtherValues(){
+        FizzBuzz fb = new FizzBuzz();
+        int number = 27;
+        String Output = fb.fizzbuzzer(number);
+        Assert.assertEquals(Integer.toString(number),Output);
+    }
 }

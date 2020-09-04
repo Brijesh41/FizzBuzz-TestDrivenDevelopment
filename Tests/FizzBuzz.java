@@ -12,6 +12,7 @@ public class FizzBuzz {
 
         if(number%5==0) return "Buzz";
 
-        return null;
+
+        return Integer.toString(number);
     }
 }
