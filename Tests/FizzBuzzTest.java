@@ -66,7 +66,7 @@ public class FizzBuzzTest{
     @Test
     public void ForAllOtherValues(){
         FizzBuzz fb = new FizzBuzz();
-        int number = 27;
+        int number = 26;
         String Output = fb.fizzbuzzer(number);
         Assert.assertEquals(Integer.toString(number),Output);
     }
